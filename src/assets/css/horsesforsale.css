@@ -1,0 +1,25 @@
+.heading-hfs {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0%;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.horse-for-sale{
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    .heading-hfs {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0%;
+    }
+}
+  @media screen and (max-width: 800px) {
+    .heading-hfs {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0%;
+        text-align: center;
+    }
+}
+

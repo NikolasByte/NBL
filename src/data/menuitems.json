@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    { "name": "Syndicates", "url": "/horseracing-syndicate-newmarket/" },
+    { "name": "Stud", "url": "/stud/" },
+    {
+      "name": "Contact",
+      "url": "/contact/"
+    }
+  ]
+  

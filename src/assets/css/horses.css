@@ -1,0 +1,7 @@
+td, th {
+    padding-left: 15px;
+}
+
+th:first-child, td:first-child {
+    padding-left: 15px;
+}
