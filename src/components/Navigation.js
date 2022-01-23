@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../assets/img/NBL.png";
-import { Button, Modal } from "react-bootstrap";
-import "../assets/css/Navigation.css";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import menuItems from "../data/menuitems.json";
+//import { Button, Modal } from "react-bootstrap";
+//import "../assets/css/Navigation.css";
+//import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import menuItems from "../data/menuitems.json";
 import { Link } from "gatsby";
-import CallBackForm from "../components/CallBackForm";
+//import CallBackForm from "../components/CallBackForm";
 
 export default () => {
   const [menuOpen, toggleMenu] = useState(false);

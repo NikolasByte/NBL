@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 import "../assets/css/index.css";
 import { Col, Container, Row, Button, Table} from 'react-bootstrap'
 import Img from "gatsby-image"
-import { faLandmark, faIdBadge, faInfoCircle, faMoneyCheck, faPoundSign, faArrowAltCircleDown, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "gatsby";
 
@@ -40,59 +39,59 @@ export default ({ data }) => {
     </thead>
     <tbody>
     <tr class="one">
-        <td>UEA 2</td>
-        <td>4</td>
-        <td>4</td>
+        <td>Lions</td>
+        <td>3</td>
+        <td>3</td>
         <td>0</td>
         <td>0</td>
-        <td>309</td>
-        <td>206</td>
-        <td>103</td>
-        <td>8</td>
+        <td>255</td>
+        <td>169</td>
+        <td>86</td>
+        <td>6</td>
     </tr>
     <tr class="two">
-        <td>Great Yarmouth</td>
-        <td>5</td>
+        <td>Eagles</td>
+        <td>3</td>
         <td>2</td>
         <td>0</td>
-        <td>3</td>
-        <td>315</td>
-        <td>353</td>
-        <td>-38</td>
-        <td>7</td>
+        <td>1</td>
+        <td>209</td>
+        <td>165</td>
+        <td>44</td>
+        <td>5</td>
     </tr>
     <tr class="three">
-        <td>Cromer</td>
-        <td>6</td>
-        <td>1</td>
+        <td>Reepham</td>
+        <td>3</td>
+        <td>2</td>
         <td>0</td>
+        <td>1</td>
+        <td>214</td>
+        <td>193</td>
+        <td>21</td>
         <td>5</td>
-        <td>315</td>
-        <td>434</td>
-        <td>-119</td>
-        <td>7</td>
     </tr>
     <tr class="four">
-        <td>Lions 2</td>
-        <td>3</td>
+        <td>UEA 1</td>
         <td>3</td>
         <td>0</td>
         <td>0</td>
-        <td>225</td>
-        <td>119</td>
-        <td>106</td>
-        <td>6</td>
+        <td>3</td>
+        <td>141</td>
+        <td>256</td>
+        <td>-115</td>
+        <td>3</td>
     </tr>
     <tr class="four">
-        <td>Eagles 2</td>
-        <td>5</td>
-        <td>1</td>
+        <td>Beccles</td>
+        <td>2</td>
         <td>0</td>
-        <td>4</td>
-        <td>266</td>
-        <td>319</td>
-        <td>-53</td>
-        <td>6</td>
+        <td>0</td>
+        <td>2</td>
+        <td>117</td>
+        <td>153</td>
+        <td>-36</td>
+        <td>2</td>
     </tr>
     <tr class="four">
         <td>Beccles 2</td>
@@ -107,12 +106,12 @@ export default ({ data }) => {
     </tr>
     </tbody>
     </Table>
-      <h2>Recent Results</h2>
+      <h2></h2>
       <br></br>
       <br></br>
       <h1>Norfolk Basketball League Division 2 </h1>
       <h2>League Table</h2>
-      <Table>
+      <Table bordered hover>
     <tr>
         <th>Team Name</th>
         <th>GP</th>
@@ -191,7 +190,7 @@ export default ({ data }) => {
         <td>5</td>
     </tr>
     </Table>
-      <h2>Recent Results</h2>
+      <h2></h2>
     </Container>
     
   </Layout>
