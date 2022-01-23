@@ -97,17 +97,6 @@ export default ({ data }) => {
             <td>-36</td>
             <td>2</td>
         </tr>
-        <tr class="four">
-            <td>Beccles 2</td>
-            <td>3</td>
-            <td>2</td>
-            <td>0</td>
-            <td>1</td>
-            <td>178</td>
-            <td>177</td>
-            <td>1</td>
-            <td>5</td>
-        </tr>
         </tbody>
     </Table>
     </div>
