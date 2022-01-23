@@ -20,13 +20,16 @@ export default ({ data }) => {
       description=""
       keywords=""
     />
-    <Container>
-    <h1>Norfolk Basketball League Division 1 </h1>
+    <Container className="">
+      <br></br>
+      <div className="text-center pt-4" >
+    <h1 className="p-1">Norfolk Basketball League Division 1 </h1>
       <h2>League Table</h2>
+      </div>
       <Table bordered hover>
         <thead>
     <tr>
-        <th>Team Name</th>
+        <th>Team</th>
         <th>GP</th>
         <th>W</th>
         <th>D</th>
@@ -34,7 +37,7 @@ export default ({ data }) => {
         <th>GF</th>
         <th>GA</th>
         <th>GD</th>
-        <th>GP</th>
+        <th>P</th>
     </tr>
     </thead>
     <tbody>
@@ -109,11 +112,13 @@ export default ({ data }) => {
       <h2></h2>
       <br></br>
       <br></br>
+      <div className="text-center pt-4" >
       <h1>Norfolk Basketball League Division 2 </h1>
       <h2>League Table</h2>
+      </div>
       <Table bordered hover>
     <tr>
-        <th>Team Name</th>
+        <th>Team</th>
         <th>GP</th>
         <th>W</th>
         <th>D</th>
@@ -121,7 +126,7 @@ export default ({ data }) => {
         <th>GF</th>
         <th>GA</th>
         <th>GD</th>
-        <th>GP</th>
+        <th>P</th>
     </tr>
     <tr class="one">
         <td>UEA 2</td>
