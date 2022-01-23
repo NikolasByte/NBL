@@ -23,92 +23,94 @@ export default ({ data }) => {
     <Container className="">
       <br></br>
       <div className="text-center pt-4" >
-    <h1 className="p-1">Norfolk Basketball League Division 1 </h1>
-      <h2>League Table</h2>
+        <h1 className="p-1">Norfolk Basketball League Division 1 </h1>
+        <h2>League Table</h2>
       </div>
-      <Table bordered hover>
-        <thead>
-    <tr>
-        <th>Team</th>
-        <th>GP</th>
-        <th>W</th>
-        <th>D</th>
-        <th>L</th>
-        <th>GF</th>
-        <th>GA</th>
-        <th>GD</th>
-        <th>P</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="one">
-        <td>Lions</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>0</td>
-        <td>255</td>
-        <td>169</td>
-        <td>86</td>
-        <td>6</td>
-    </tr>
-    <tr class="two">
-        <td>Eagles</td>
-        <td>3</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1</td>
-        <td>209</td>
-        <td>165</td>
-        <td>44</td>
-        <td>5</td>
-    </tr>
-    <tr class="three">
-        <td>Reepham</td>
-        <td>3</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1</td>
-        <td>214</td>
-        <td>193</td>
-        <td>21</td>
-        <td>5</td>
-    </tr>
-    <tr class="four">
-        <td>UEA 1</td>
-        <td>3</td>
-        <td>0</td>
-        <td>0</td>
-        <td>3</td>
-        <td>141</td>
-        <td>256</td>
-        <td>-115</td>
-        <td>3</td>
-    </tr>
-    <tr class="four">
-        <td>Beccles</td>
-        <td>2</td>
-        <td>0</td>
-        <td>0</td>
-        <td>2</td>
-        <td>117</td>
-        <td>153</td>
-        <td>-36</td>
-        <td>2</td>
-    </tr>
-    <tr class="four">
-        <td>Beccles 2</td>
-        <td>3</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1</td>
-        <td>178</td>
-        <td>177</td>
-        <td>1</td>
-        <td>5</td>
-    </tr>
-    </tbody>
+      <div className="table-responsive">
+        <Table bordered hover>
+            <thead>
+        <tr>
+            <th>Team</th>
+            <th>GP</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>GF</th>
+            <th>GA</th>
+            <th>GD</th>
+            <th>P</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="one">
+            <td>Lions</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>255</td>
+            <td>169</td>
+            <td>86</td>
+            <td>6</td>
+        </tr>
+        <tr class="two">
+            <td>Eagles</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>209</td>
+            <td>165</td>
+            <td>44</td>
+            <td>5</td>
+        </tr>
+        <tr class="three">
+            <td>Reepham</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>214</td>
+            <td>193</td>
+            <td>21</td>
+            <td>5</td>
+        </tr>
+        <tr class="four">
+            <td>UEA 1</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>141</td>
+            <td>256</td>
+            <td>-115</td>
+            <td>3</td>
+        </tr>
+        <tr class="four">
+            <td>Beccles</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>117</td>
+            <td>153</td>
+            <td>-36</td>
+            <td>2</td>
+        </tr>
+        <tr class="four">
+            <td>Beccles 2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>178</td>
+            <td>177</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        </tbody>
     </Table>
+    </div>
       <h2></h2>
       <br></br>
       <br></br>
