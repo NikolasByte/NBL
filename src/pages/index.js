@@ -118,6 +118,7 @@ export default ({ data }) => {
       <h1>Norfolk Basketball League Division 2 </h1>
       <h2>League Table</h2>
       </div>
+      <div className="table-responsive">
       <Table bordered hover>
     <tr>
         <th>Team</th>
@@ -197,6 +198,7 @@ export default ({ data }) => {
         <td>5</td>
     </tr>
     </Table>
+    </div>
       <h2></h2>
     </Container>
     
