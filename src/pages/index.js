@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../assets/css/index.css";
-import { Col, Container, Row, Button, Table} from 'react-bootstrap'
+import { Col, Container, Row, Button, Table, Accordion,} from 'react-bootstrap'
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "gatsby";
@@ -16,29 +16,30 @@ export default ({ data }) => {
     <>
   <Layout>
     <SEO 
-      title="Norfolk Basketball league Scores"
-      description=""
+      title="Norfolk Basketball league"
+      description="Local league results for the Norfolk basketball league"
       keywords=""
     />
-    <Container className="">
+    <Container>
       <br></br>
-      <div className="text-center pt-4" >
-        <h1 className="p-1">Norfolk Basketball League Division 1 </h1>
-        <h2>League Table</h2>
+      <div></div>
+      <div className="text-center" >
+        <h1 className="">Norfolk Basketball League</h1>
+        <h2>Division 1 League Table</h2>
       </div>
       <div className="table-responsive">
         <Table bordered hover>
             <thead>
         <tr>
-            <th>Team</th>
-            <th>GP</th>
-            <th>W</th>
-            <th>D</th>
-            <th>L</th>
-            <th>GF</th>
-            <th>GA</th>
-            <th>GD</th>
-            <th>P</th>
+            <th> Team</th>
+            <th> GP</th>
+            <th> W</th>
+            <th> D</th>
+            <th> L</th>
+            <th> GF</th>
+            <th> GA</th>
+            <th> GD</th>
+            <th> P</th>
         </tr>
         </thead>
         <tbody>
@@ -101,11 +102,8 @@ export default ({ data }) => {
     </Table>
     </div>
       <h2></h2>
-      <br></br>
-      <br></br>
-      <div className="text-center pt-4" >
-      <h1>Norfolk Basketball League Division 2 </h1>
-      <h2>League Table</h2>
+      <div className="text-center" >
+      <h2>Division 2 League Table</h2>
       </div>
       <div className="table-responsive">
       <Table bordered hover>

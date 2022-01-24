@@ -22,15 +22,15 @@ const Layout = ({ children }) => {
         <Navigation/>
         <main>{children}</main>
         <CookieConsent
-  location="bottom"
-  buttonText="Dimiss"
-  cookieName="myAwesomeCookieName2"
-  style={{ background: "#2B373B" }}
-  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-  expires={150}
->
-  This website uses cookies to enhance the user experience.{" "}
-</CookieConsent>
+          location="bottom"
+          buttonText="Dimiss"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+          expires={150}
+          >
+            This website uses cookies to enhance the user experience.{" "}
+          </CookieConsent>
     </>
   )
 }
