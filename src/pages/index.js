@@ -186,7 +186,7 @@ export default ({ data }) => {
       </Table>
     </div>
     <div className="text-center" >
-        <h2>Ladies Division 1 League Table</h2>
+        <h2>Womens Division 1 League Table</h2>
       </div>
       <div className="table-responsive">
       <Table bordered hover>
