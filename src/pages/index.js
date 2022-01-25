@@ -105,7 +105,7 @@ export default ({ data }) => {
         <h2>Mens Division 2 League Table</h2>
       </div>
       <div className="table-responsive">
-        <Table bordered hover>
+      <Table bordered hover>
         <tr>
             <th>Team</th>
             <th>GP</th>
@@ -189,7 +189,7 @@ export default ({ data }) => {
         <h2>Ladies Division 1 League Table</h2>
       </div>
       <div className="table-responsive">
-        <Table bordered hover>
+      <Table bordered hover>
         <tr>
             <th>Team</th>
             <th>GP</th>
