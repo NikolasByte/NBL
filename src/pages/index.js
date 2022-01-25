@@ -213,6 +213,17 @@ export default ({ data }) => {
             <td>8</td>
         </tr>
         <tr class="four">
+            <td>Cambridge</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>289</td>
+            <td>128</td>
+            <td>161</td>
+            <td>7</td>
+        </tr>
+        <tr class="four">
             <td>Saints</td>
             <td>4</td>
             <td>3</td>
