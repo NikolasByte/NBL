@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.pcracing.co.uk",
+    siteUrl: "https://norfolk-basketball-league.netlify.app",
     title: "Please Specify a Title",
     titleTemplate:
-      "%s | Peter Charalambous Racehorse Trainer | Newmarket Racehorse Syndicate ",
+      "%s Norfolk Basketball league" ",
     description:
       "%s",
-    url: "https://www.pcracing.co.uk", // No trailing slash allowed!
-    image: "/pcracinglogo.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@pcracing",
+    url: "https://norfolk-basketball-league.netlify.app", // No trailing slash allowed!
+    image: "/NBL.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-51924997-1",
+        trackingId: "xxxxxx",
       },
     },
   ],
