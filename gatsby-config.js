@@ -3,7 +3,7 @@ module.exports = {
     siteUrl: "https://norfolk-basketball-league.netlify.app",
     title: "Please Specify a Title",
     titleTemplate:
-      "%s Norfolk Basketball league" ",
+      "%s Norfolk Basketball league",
     description:
       "%s",
     url: "https://norfolk-basketball-league.netlify.app", // No trailing slash allowed!

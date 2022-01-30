@@ -119,25 +119,25 @@ export default ({ data }) => {
         </tr>
         <tr class="four">
             <td>Lions 2</td>
-            <td>4</td>
-            <td>4</td>
+            <td>5</td>
+            <td>5</td>
             <td>0</td>
             <td>0</td>
-            <td>293</td>
-            <td>151</td>
-            <td>142</td>
-            <td>8</td>
+            <td>358</td>
+            <td>210</td>
+            <td>148</td>
+            <td>10</td>
         </tr>
         <tr class="one">
             <td>UEA 2</td>
-            <td>4</td>
+            <td>5</td>
             <td>4</td>
             <td>0</td>
-            <td>0</td>
-            <td>309</td>
-            <td>206</td>
-            <td>103</td>
-            <td>8</td>
+            <td>1</td>
+            <td>368</td>
+            <td>271</td>
+            <td>97</td>
+            <td>9</td>
         </tr>
         <tr class="two">
             <td>Great Yarmouth</td>
