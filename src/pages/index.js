@@ -139,6 +139,17 @@ export default ({ data }) => {
             <td>97</td>
             <td>9</td>
         </tr>
+        <tr class="four">
+            <td>Beccles 2</td>
+            <td>5</td>
+            <td>3</td>
+            <td>0</td>
+            <td>2</td>
+            <td>278</td>
+            <td>302</td>
+            <td>-24</td>
+            <td>8</td>
+        </tr>
         <tr class="two">
             <td>Great Yarmouth</td>
             <td>5</td>
@@ -148,6 +159,17 @@ export default ({ data }) => {
             <td>315</td>
             <td>353</td>
             <td>-38</td>
+            <td>7</td>
+        </tr>
+        <tr class="four">
+            <td>Eagles 2</td>
+            <td>6</td>
+            <td>1</td>
+            <td>0</td>
+            <td>5</td>
+            <td>323</td>
+            <td>387</td>
+            <td>-64</td>
             <td>7</td>
         </tr>
         <tr class="three">
@@ -160,28 +182,6 @@ export default ({ data }) => {
             <td>434</td>
             <td>-119</td>
             <td>7</td>
-        </tr>
-        <tr class="four">
-            <td>Beccles 2</td>
-            <td>4</td>
-            <td>2</td>
-            <td>0</td>
-            <td>2</td>
-            <td>210</td>
-            <td>245</td>
-            <td>-35</td>
-            <td>6</td>
-        </tr>
-        <tr class="four">
-            <td>Eagles 2</td>
-            <td>5</td>
-            <td>1</td>
-            <td>0</td>
-            <td>4</td>
-            <td>266</td>
-            <td>319</td>
-            <td>-53</td>
-            <td>6</td>
         </tr>
       </Table>
     </div>
