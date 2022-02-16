@@ -117,6 +117,17 @@ export default ({ data }) => {
             <th>GD</th>
             <th>P</th>
         </tr>
+        <tr class="one">
+            <td>UEA 2</td>
+            <td>6</td>
+            <td>5</td>
+            <td>0</td>
+            <td>1</td>
+            <td>427</td>
+            <td>318</td>
+            <td>109</td>
+            <td>11</td>
+        </tr>
         <tr class="four">
             <td>Lions 2</td>
             <td>5</td>
@@ -128,17 +139,7 @@ export default ({ data }) => {
             <td>148</td>
             <td>10</td>
         </tr>
-        <tr class="one">
-            <td>UEA 2</td>
-            <td>5</td>
-            <td>4</td>
-            <td>0</td>
-            <td>1</td>
-            <td>368</td>
-            <td>271</td>
-            <td>97</td>
-            <td>9</td>
-        </tr>
+
         <tr class="four">
             <td>Beccles 2</td>
             <td>5</td>
@@ -163,14 +164,14 @@ export default ({ data }) => {
         </tr>
         <tr class="four">
             <td>Eagles 2</td>
-            <td>6</td>
+            <td>7</td>
             <td>1</td>
             <td>0</td>
-            <td>5</td>
-            <td>323</td>
-            <td>387</td>
-            <td>-64</td>
-            <td>7</td>
+            <td>6</td>
+            <td>367</td>
+            <td>446</td>
+            <td>-79</td>
+            <td>8</td>
         </tr>
         <tr class="three">
             <td>Cromer</td>
