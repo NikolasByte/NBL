@@ -45,14 +45,14 @@ export default ({ data }) => {
             <tbody>
             <tr class="one">
                 <td>Lions</td>
-                <td>5</td>
-                <td>5</td>
+                <td>6</td>
+                <td>6</td>
                 <td>0</td>
                 <td>0</td>
-                <td>411</td>
-                <td>286</td>
-                <td>125</td>
-                <td>10</td>
+                <td>514</td>
+                <td>329</td>
+                <td>185</td>
+                <td>12</td>
             </tr>
             <tr class="three">
                 <td>Reepham</td>
@@ -77,6 +77,17 @@ export default ({ data }) => {
                 <td>8</td>
             </tr>
             <tr class="four">
+                <td>UEA 1</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>5</td>
+                <td>240</td>
+                <td>422</td>
+                <td>-182</td>
+                <td>5</td>
+            </tr>
+            <tr class="four">
                 <td>Beccles</td>
                 <td>4</td>
                 <td>0</td>
@@ -87,17 +98,7 @@ export default ({ data }) => {
                 <td>-113</td>
                 <td>3</td>
               </tr>
-            <tr class="four">
-                <td>UEA 1</td>
-                <td>4</td>
-                <td>0</td>
-                <td>0</td>
-                <td>4</td>
-                <td>197</td>
-                <td>319</td>
-                <td>-122</td>
-                <td>4</td>
-            </tr>
+
           </tbody>
         </Table>
       </div>
@@ -119,14 +120,14 @@ export default ({ data }) => {
         </tr>
         <tr class="one">
             <td>UEA 2</td>
+            <td>7</td>
             <td>6</td>
-            <td>5</td>
             <td>0</td>
             <td>1</td>
-            <td>427</td>
-            <td>318</td>
-            <td>109</td>
-            <td>11</td>
+            <td>493</td>
+            <td>380</td>
+            <td>113</td>
+            <td>13</td>
         </tr>
         <tr class="four">
             <td>Lions 2</td>
@@ -147,20 +148,20 @@ export default ({ data }) => {
             <td>0</td>
             <td>2</td>
             <td>278</td>
-            <td>302</td>
-            <td>-24</td>
+            <td>299</td>
+            <td>-21</td>
             <td>8</td>
         </tr>
         <tr class="two">
             <td>Great Yarmouth</td>
-            <td>5</td>
+            <td>6</td>
             <td>2</td>
             <td>0</td>
-            <td>3</td>
-            <td>315</td>
-            <td>353</td>
-            <td>-38</td>
-            <td>7</td>
+            <td>4</td>
+            <td>377</td>
+            <td>419</td>
+            <td>-42</td>
+            <td>8</td>
         </tr>
         <tr class="four">
             <td>Eagles 2</td>
@@ -203,70 +204,70 @@ export default ({ data }) => {
             <th>P</th>
         </tr>
         <tr class="four">
-            <td>Cambridge</td>
-            <td>5</td>
-            <td>4</td>
-            <td>0</td>
-            <td>1</td>
-            <td>344</td>
-            <td>163</td>
-            <td>181</td>
-            <td>9</td>
-        </tr>
-        <tr class="four">
-            <td>Devils</td>
-            <td>6</td>
-            <td>3</td>
-            <td>0</td>
-            <td>3</td>
-            <td>217</td>
-            <td>385</td>
-            <td>-168</td>
-            <td>9</td>
-        </tr>
-        <tr class="four">
             <td>Bury St Edmunds</td>
-            <td>5</td>
-            <td>3</td>
-            <td>0</td>
-            <td>2</td>
-            <td>328</td>
-            <td>198</td>
-            <td>130</td>
             <td>8</td>
+            <td>5</td>
+            <td>0</td>
+            <td>3</td>
+            <td>515</td>
+            <td>337</td>
+            <td>178</td>
+            <td>13</td>
         </tr>
         <tr class="four">
             <td>UEA 1</td>
-            <td>4</td>
-            <td>3</td>
+            <td>6</td>
+            <td>5</td>
             <td>0</td>
             <td>1</td>
-            <td>246</td>
-            <td>141</td>
-            <td>105</td>
+            <td>383</td>
+            <td>225</td>
+            <td>158</td>
+            <td>11</td>
+        </tr>
+        <tr class="four">
+            <td>Cambridge</td>
+            <td>6</td>
+            <td>4</td>
+            <td>0</td>
+            <td>2</td>
+            <td>395</td>
+            <td>218</td>
+            <td>177</td>
+            <td>10</td>
+        </tr>
+        <tr class="four">
+            <td>Devils</td>
             <td>7</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+            <td>242</td>
+            <td>477</td>
+            <td>-235</td>
+            <td>9</td>
         </tr>
         <tr class="four">
             <td>Saints</td>
+            <td>5</td>
             <td>4</td>
-            <td>3</td>
             <td>0</td>
             <td>1</td>
-            <td>247</td>
-            <td>148</td>
-            <td>99</td>
-            <td>7</td>
+            <td>348</td>
+            <td>171</td>
+            <td>177</td>
+            <td>9</td>
         </tr>
         <tr class="four">
             <td>Notre Dame</td>
-            <td>5</td>
+            <td>7</td>
             <td>2</td>
             <td>0</td>
-            <td>3</td>
-            <td>229</td>
-            <td>272</td>
-            <td>-43</td>
-            <td>7</td>
+            <td>5</td>
+            <td>284</td>
+            <td>435</td>
+            <td>-151</td>
+            <td>9</td>
         </tr>
         <tr class="four">
             <td>UEA 2</td>
