@@ -96,7 +96,7 @@ export default ({ data }) => {
                 <td>210</td>
                 <td>330</td>
                 <td>-120</td>
-                <td>3</td>
+                <td>4</td>
               </tr>
 
           </tbody>
