@@ -78,29 +78,46 @@ export default ({ data }) => {
             </tr>
             <tr class="four">
                 <td>UEA 1</td>
-                <td>5</td>
+                <td>6</td>
+                <td>1</td>
                 <td>0</td>
-                <td>0</td>
                 <td>5</td>
-                <td>240</td>
-                <td>422</td>
-                <td>-182</td>
-                <td>5</td>
+                <td>297</td>
+                <td>474</td>
+                <td>-177</td>
+                <td>6</td>
             </tr>
             <tr class="four">
                 <td>Beccles</td>
-                <td>4</td>
+                <td>5</td>
                 <td>0</td>
                 <td>0</td>
-                <td>4</td>
-                <td>210</td>
-                <td>330</td>
-                <td>-120</td>
-                <td>4</td>
+                <td>5</td>
+                <td>262</td>
+                <td>387</td>
+                <td>-125</td>
+                <td>5</td>
               </tr>
-
           </tbody>
         </Table>
+{/*         <h2>League Results</h2>
+        <Table bordered>
+        <thead>
+          <tr>
+            <th>Home Team</th>
+            <th>Score</th>
+            <th>Score</th>
+            <th>Away Team</th>
+          </tr>
+        </thead>
+            <tbody>
+              <td>Lions</td>
+              <td>75</td>
+              <td>68</td>
+              <td>Eagles</td>
+            </tbody>
+        </Table> */}
+
       </div>
       <div className="text-center" >
         <h2>Mens Division 2 League Table</h2>
@@ -130,6 +147,17 @@ export default ({ data }) => {
             <td>15</td>
         </tr>
         <tr class="four">
+            <td>Lions 2</td>
+            <td>6</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>437</td>
+            <td>242</td>
+            <td>195</td>
+            <td>12</td>
+        </tr>
+        <tr class="four">
             <td>Beccles 2</td>
             <td>7</td>
             <td>4</td>
@@ -140,49 +168,40 @@ export default ({ data }) => {
             <td>-48</td>
             <td>11</td>
         </tr>
-        <tr class="four">
-            <td>Lions 2</td>
-            <td>5</td>
-            <td>5</td>
-            <td>0</td>
-            <td>0</td>
-            <td>358</td>
-            <td>210</td>
-            <td>148</td>
-            <td>10</td>
-        </tr>
+
         <tr class="three">
             <td>Cromer</td>
+            <td>9</td>
+            <td>2</td>
+            <td>0</td>
+            <td>7</td>
+            <td>460</td>
+            <td>591</td>
+            <td>-131</td>
+            <td>11</td>
+        </tr>
+        <td>Eagles 2</td>
             <td>8</td>
             <td>2</td>
             <td>0</td>
             <td>6</td>
-            <td>423</td>
-            <td>549</td>
-            <td>-126</td>
+            <td>409</td>
+            <td>483</td>
+            <td>-74</td>
             <td>10</td>
-        </tr>
         <tr class="two">
             <td>Great Yarmouth</td>
-            <td>7</td>
+            <td>8</td>
             <td>2</td>
             <td>0</td>
-            <td>5</td>
-            <td>433</td>
-            <td>476</td>
-            <td>-43</td>
-            <td>9</td>
+            <td>6</td>
+            <td>465</td>
+            <td>555</td>
+            <td>-90</td>
+            <td>10</td>
         </tr>
         <tr class="four">
-            <td>Eagles 2</td>
-            <td>7</td>
-            <td>1</td>
-            <td>0</td>
-            <td>6</td>
-            <td>367</td>
-            <td>446</td>
-            <td>-79</td>
-            <td>8</td>
+
         </tr>
 
       </Table>
